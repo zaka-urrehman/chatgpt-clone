@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .menuItem {
+    @apply bg-gray-700 w-full text-gray-200 outline-gray-300 border rounded-lg active:bg-gray-500 active:text-white
+  }
+  .recent-chat-box{
+    @apply flex justify-between items-center outline-white border rounded-lg px-2 mx-3 my-4
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
